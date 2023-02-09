@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d78f2;
+    height: 10vh;
+}
+
+.logo img {
+    filter: brightness(0);
+    width: 99px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 14px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+.btn {
+    margin: 0 15px;
+    padding: 6px 15px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Itim', cursive;
+    font-size: 14px;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    align-items: center;
+   
+    margin: 18px 10px;
+    box-shadow: 0px 0px 15px #00000070;
+    padding: 14px ;
+
+}
+.box img{
+    width: 170px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.services{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv img{
+    width: 450px;
+}
+.ran{
+    height: 215px;
+}
+footer{
+    background-color: #172337;text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    color: #fff;
+    height: 50vh;
+}
+
+.foot{
+    padding: 20px;
+}
+
+@media (min-width:380px) and (max-width:500px){
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: #2d78f2;
+        height: 15vh;
+        flex-direction: column;
+    }
+    .logo img {
+        width: 68px;
+    }
+    ul li {
+        padding: 7px;
+    }
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 18px 10px;
+        box-shadow: 0px 0px 15px #00000070;
+        padding: 14px;
+        
+        font-size: 10px;
+    }
+    .serv img {
+        width: 360px;
+    }
+}
